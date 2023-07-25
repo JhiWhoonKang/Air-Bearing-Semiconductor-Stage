@@ -22,4 +22,18 @@
 |CS5020-0111|X|-|-|X|-|-|X|-|-|
 
 # *Architekture*
-<img src="C:\JHIWHOON_ws\Tech University of Korea\LAB\Beckhoff|.jpeg" width="80%">
+![Beckhoff Architecture](https://github.com/JhiWhoonKang/Air-Bearing-Semiconductor-Stage/assets/109329462/efca3c4f-0868-4b3f-92fb-4ff230e28360)
+
+#### **_Intel® Atom™ Z530 processor_**
+
+| **Specifications** | |
+|-----|:----:|
+|Total Cores|１|
+|Processor Base Frequency|1.60 GHz|
+|Cache|512 KB L2 Cache|
+|Bus Speed|533 MHz|
+|FSB Parity|No|
+|VID Voltage Range|0.75-1.1V| 
+
+# Getting Started
+
