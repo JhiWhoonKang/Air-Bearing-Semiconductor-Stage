@@ -4,9 +4,9 @@
 <br/><br/>**| Research Duration**
 <br/>August 1, 2023, to October 31, 2023
 <br/><br/>**| Project Team**
-<br/>▶Jo Geunyoung(Fourth-year)
-<br/>▶Kang JHiWhoon(Third-year)
-<br/>▶Kim Chanmin(Third-year)
+<br/>▶Jo Geunyoung (Fourth-year)
+<br/>▶Kang JHiWhoon (Third-year)
+<br/>▶Kim Chanmin (Third-year)
 
 # [Beckhoff Embedded PC](https://www.beckhoff.com/en-en/)
 # *Specifications*
