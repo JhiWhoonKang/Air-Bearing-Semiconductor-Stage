@@ -29,7 +29,7 @@ Project with
 |-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |CS5020-0111|X|-|-|X|-|-|X|-|-|
 
-# *Architekture*
+# *Architecture*
 ![Beckhoff Architecture](https://github.com/JhiWhoonKang/Air-Bearing-Semiconductor-Stage/assets/109329462/efca3c4f-0868-4b3f-92fb-4ff230e28360)
 
 #### **_Intel® Atom™ Z530 processor_**
