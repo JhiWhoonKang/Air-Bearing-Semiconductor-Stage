@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="Init_Devices" Id="{075df77e-153f-4dfb-b09a-989bdf671603}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION Init_Devices : BOOL
+VAR_INPUT
+	
+END_VAR
+VAR
+	IsComplete : BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[GVL.AxisX_Power_Fuc(
+			Axis := GVL.AxisX,
+			Enable_Negative :=TRUE,
+			Enable_Positive := TRUE,
+			Override := 100,
+			);	
+			
+GVL.AxisY_Power_Fuc(
+			Axis := GVL.AxisY,
+			Enable_Negative :=TRUE,
+			Enable_Positive := TRUE,
+			Override := 100,
+			);	
+			
+GVL.AxisX_AbMove_Fuc(
+	Axis := GVL.AxisX,
+	Acceleration := GVL.X_Command_Acc,
+	Velocity := GVL.X_Command_Vel,
+	Deceleration := GVL.X_Command_Dec,
+	Position :=GVL.X_Command_Pos,
+	Busy => GVL.X_Busy,
+	Done => GVL.X_Done
+	);
+	
+GVL.AxisY_AbMove_Fuc(
+	Axis := GVL.AxisY,
+	Acceleration := GVL.Y_Command_Acc,
+	Velocity := GVL.Y_Command_Vel,
+	Deceleration := GVL.Y_Command_Dec,
+	Position :=GVL.Y_Command_Pos,
+	Busy => GVL.Y_Busy,
+	Error => GVL.Y_Error,
+	ErrorID => GVL.Y_ErrorID,
+	);
+	
+// Get Velocity and Position for PID Graph // 
+GVL.X_GetVel(
+	Axis :=GVL.AxisX,
+	Enable := TRUE,
+	ActualVelocity =>GVL.X_Vel
+	);
+GVL.Y_GetVel(
+	Axis :=GVL.AxisY,
+	Enable := TRUE,
+	ActualVelocity =>GVL.Y_Vel
+	);
+GVL.X_GetPos(
+	Axis := GVL.AxisX,
+	Enable := TRUE,
+	Position => GVL.X_Pos,
+	);
+GVL.Y_GetPos(
+	Axis := GVL.AxisY,
+	Enable := TRUE,
+	Position => GVL.Y_Pos,
+	);
+]]></ST>
+    </Implementation>
+    <LineIds Name="Init_Devices">
+      <LineId Id="10" Count="1" />
+      <LineId Id="7" Count="0" />
+      <LineId Id="13" Count="1" />
+      <LineId Id="12" Count="0" />
+      <LineId Id="15" Count="0" />
+      <LineId Id="18" Count="5" />
+      <LineId Id="16" Count="1" />
+      <LineId Id="31" Count="0" />
+      <LineId Id="38" Count="2" />
+      <LineId Id="44" Count="0" />
+      <LineId Id="46" Count="0" />
+      <LineId Id="94" Count="0" />
+      <LineId Id="32" Count="0" />
+      <LineId Id="102" Count="0" />
+      <LineId Id="35" Count="1" />
+      <LineId Id="42" Count="1" />
+      <LineId Id="41" Count="0" />
+      <LineId Id="45" Count="0" />
+      <LineId Id="47" Count="0" />
+      <LineId Id="56" Count="0" />
+      <LineId Id="55" Count="0" />
+      <LineId Id="37" Count="0" />
+      <LineId Id="84" Count="1" />
+      <LineId Id="65" Count="18" />
+      <LineId Id="64" Count="0" />
+      <LineId Id="34" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

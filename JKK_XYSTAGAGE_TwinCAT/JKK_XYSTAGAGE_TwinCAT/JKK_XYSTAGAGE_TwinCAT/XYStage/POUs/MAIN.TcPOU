@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{4fff3968-6d8d-4583-a644-d7c373040352}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+		
+		
+		
+
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[// Init
+Init_Devices();
+//
+Get_PID_Gain();
+
+
+GVL.AxisX_Power_Fuc.Enable := GVL.OnMoterX;
+GVL.AxisY_Power_Fuc.Enable := GVL.OnMoterY;
+
+
+
+GVL.AxisX_AbMove_Fuc.Execute := GVL.X_AbMove_Ex;
+GVL.X_AbMove_Ex := FALSE;
+
+
+GVL.AxisY_AbMove_Fuc.Execute := GVL.Y_AbMove_Ex;
+GVL.Y_AbMove_Ex := FALSE;
+
+
+GVL.fbCoEWrite_X(
+		Axis :=GVL.AxisX,		
+		NetId := '5.33.182.40.1.1', 
+  		Index := GVL.Index,
+  		pSrcBuf := ADR(GVL.X_Gain), 
+  		BufLen := SIZEOF(GVL.X_Gain), 
+  		Execute := GVL.X_COE_Ex, 
+  		Timeout := T#1S, 	
+		CompleteAccess := GVL.CompleteAccess, 
+		Busy => GVL.Success
+	);	
+	
+GVL.fbCoEWrite_Y(
+		Axis :=GVL.AxisY,		
+		NetId := '5.33.182.40.1.1', 
+  		Index := GVL.Index,
+  		pSrcBuf := ADR(GVL.Y_Gain), 
+  		BufLen := SIZEOF(GVL.Y_Gain), 
+  		Execute := GVL.Y_COE_Ex, 
+  		Timeout := T#1S, 	
+		CompleteAccess := GVL.CompleteAccess, 
+		Busy => GVL.Success
+	);	
+
+]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="38" Count="0" />
+      <LineId Id="32" Count="0" />
+      <LineId Id="34" Count="0" />
+      <LineId Id="146" Count="0" />
+      <LineId Id="214" Count="0" />
+      <LineId Id="213" Count="0" />
+      <LineId Id="45" Count="1" />
+      <LineId Id="81" Count="0" />
+      <LineId Id="54" Count="0" />
+      <LineId Id="37" Count="0" />
+      <LineId Id="33" Count="0" />
+      <LineId Id="82" Count="0" />
+      <LineId Id="84" Count="3" />
+      <LineId Id="95" Count="9" />
+      <LineId Id="108" Count="0" />
+      <LineId Id="107" Count="0" />
+      <LineId Id="83" Count="0" />
+      <LineId Id="222" Count="0" />
+      <LineId Id="224" Count="9" />
+      <LineId Id="223" Count="0" />
+      <LineId Id="134" Count="0" />
+      <LineId Id="129" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
