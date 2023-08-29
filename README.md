@@ -1,5 +1,13 @@
 # Air-Bearing-Semiconductor-Stage
 
+From August 1st to October 31st, 2023
+
+Project with
+<br/> fourth grader JKK(조근영)
+<br/> third grader KJW(강지훈)
+<br/> third grader KCM(김찬민)
+
+
 # [Beckhoff Embedded PC](https://www.beckhoff.com/en-en/)
 # *Specifications*
 
@@ -21,7 +29,7 @@
 |-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |CS5020-0111|X|-|-|X|-|-|X|-|-|
 
-# *Architekture*
+# *Architecture*
 ![Beckhoff Architecture](https://github.com/JhiWhoonKang/Air-Bearing-Semiconductor-Stage/assets/109329462/efca3c4f-0868-4b3f-92fb-4ff230e28360)
 
 #### **_Intel® Atom™ Z530 processor_**
