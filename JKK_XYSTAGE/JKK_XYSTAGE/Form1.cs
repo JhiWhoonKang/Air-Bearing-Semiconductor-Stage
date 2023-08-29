@@ -16,6 +16,7 @@ namespace JKK_XYSTAGE
         public static TcAdsClient Ads = new TcAdsClient();
 
         public static  PTP_Form PTP_form = new PTP_Form();
+        public static CM_Form CM_form = new CM_Form();
         public static  PID_X_Form PID_X_form = new PID_X_Form();
         public static  PID_Y_Form PID_Y_form = new PID_Y_Form();
 
@@ -84,7 +85,7 @@ namespace JKK_XYSTAGE
 
             menuStrip1.Items[1].Enabled = false;
             menuStrip1.Items[2].Enabled = false;
-
+            menuStrip1.Items[3].Enabled = false;
 
             PTP_form.MdiParent = this;
             PID_X_form.MdiParent = this;
@@ -113,7 +114,7 @@ namespace JKK_XYSTAGE
 
             PTP_form.Show();
         }
-        private void x축ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void XaxisToolStripMenuItem_Click(object sender, EventArgs e)
         {
             PID_Y_form.Hide();
             PTP_form.Hide();
@@ -122,13 +123,22 @@ namespace JKK_XYSTAGE
             PID_X_form.Show();
         }
 
-        private void y축ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void YaxisToolStripMenuItem_Click(object sender, EventArgs e)
         {
             PID_X_form.Hide();
             PTP_form.Hide();
 
             PID_Y_form.Size = this.ClientSize;
             PID_Y_form.Show();
+        }
+
+        private void cMToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            PID_X_form.Hide();
+            PID_Y_form.Hide();
+            CM_form.Size = this.ClientSize;
+
+            CM_form.Show();
         }
 
         private void connectToolStripMenuItem_Click(object sender, EventArgs e)
@@ -145,6 +155,7 @@ namespace JKK_XYSTAGE
                 menuStrip1.Items[0].Enabled = false;
                 menuStrip1.Items[1].Enabled = true;
                 menuStrip1.Items[2].Enabled = true;
+                menuStrip1.Items[3].Enabled = true;
 
                 hOnMoterX = Ads.CreateVariableHandle("GVL.OnMoterX");
                 hOnMoterY = Ads.CreateVariableHandle("GVL.OnMoterY");                
@@ -191,8 +202,6 @@ namespace JKK_XYSTAGE
             {
                 MessageBox.Show("1. Target AMS Net ID를 확인하세요\n2. Target 전원을 확인하세요\n3. Runtime 상태를 확인하세요", "ADS 통신 오류",
                            MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
-        
             }
 
         }

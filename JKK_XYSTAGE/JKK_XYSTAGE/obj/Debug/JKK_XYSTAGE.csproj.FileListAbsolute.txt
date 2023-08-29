@@ -44,3 +44,29 @@ C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_
 C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.CopyComplete
 C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.exe
 C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.pdb
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\JKK_XYSTAGE.exe.config
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\JKK_XYSTAGE.exe
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\JKK_XYSTAGE.pdb
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\ScottPlot.dll
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\ScottPlot.WinForms.dll
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.Drawing.Common.dll
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.Numerics.Vectors.dll
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.ValueTuple.dll
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\TwinCAT.Ads.dll
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\ScottPlot.xml
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.Numerics.Vectors.xml
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.ValueTuple.xml
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\TwinCAT.Ads.xml
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.AssemblyReference.cache
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.SuggestedBindingRedirects.cache
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.CM_Form.resources
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.Form1.resources
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.PID_X_Form.resources
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.PID_Y_Form.resources
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.Properties.Resources.resources
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.PTP_Form.resources
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.GenerateResource.cache
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.CoreCompileInputs.cache
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.CopyComplete
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.exe
+C:\JHIWHOON_ws\github_ws\Air-Bearing-Semiconductor-Stage\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.pdb

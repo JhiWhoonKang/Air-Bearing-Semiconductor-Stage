@@ -37,6 +37,7 @@ namespace JKK_XYSTAGE
             this.y축ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             lb_Servo_X = new System.Windows.Forms.Label();
             lb_Servo_Y = new System.Windows.Forms.Label();
+            this.cMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +46,8 @@ namespace JKK_XYSTAGE
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.connectToolStripMenuItem,
             this.pTPToolStripMenuItem,
-            this.pIDToolStripMenuItem});
+            this.pIDToolStripMenuItem,
+            this.cMToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(847, 24);
@@ -80,36 +82,43 @@ namespace JKK_XYSTAGE
             this.x축ToolStripMenuItem.Name = "x축ToolStripMenuItem";
             this.x축ToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.x축ToolStripMenuItem.Text = "X Axis";
-            this.x축ToolStripMenuItem.Click += new System.EventHandler(this.x축ToolStripMenuItem_Click);
+            this.x축ToolStripMenuItem.Click += new System.EventHandler(this.XaxisToolStripMenuItem_Click);
             // 
             // y축ToolStripMenuItem
             // 
             this.y축ToolStripMenuItem.Name = "y축ToolStripMenuItem";
             this.y축ToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.y축ToolStripMenuItem.Text = "Y Axis";
-            this.y축ToolStripMenuItem.Click += new System.EventHandler(this.y축ToolStripMenuItem_Click);
+            this.y축ToolStripMenuItem.Click += new System.EventHandler(this.YaxisToolStripMenuItem_Click);
             // 
             // lb_Servo_X
-            //
-         lb_Servo_X.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-         lb_Servo_X.AutoSize = true;
-         lb_Servo_X.BackColor = System.Drawing.Color.Gray;
-         lb_Servo_X.Location = new System.Drawing.Point(675, 7);
-         lb_Servo_X.Name = "lb_Servo_X";
-         lb_Servo_X.Size = new System.Drawing.Size(78, 12);
-         lb_Servo_X.TabIndex = 2;
-         lb_Servo_X.Text = "Servo_X : Off";
+            // 
+            lb_Servo_X.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            lb_Servo_X.AutoSize = true;
+            lb_Servo_X.BackColor = System.Drawing.Color.Gray;
+            lb_Servo_X.Location = new System.Drawing.Point(675, 7);
+            lb_Servo_X.Name = "lb_Servo_X";
+            lb_Servo_X.Size = new System.Drawing.Size(78, 12);
+            lb_Servo_X.TabIndex = 2;
+            lb_Servo_X.Text = "Servo_X : Off";
             // 
             // lb_Servo_Y
             // 
-        lb_Servo_Y.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-        lb_Servo_Y.AutoSize = true;
-        lb_Servo_Y.BackColor = System.Drawing.Color.Gray;
-        lb_Servo_Y.Location = new System.Drawing.Point(760, 7);
-        lb_Servo_Y.Name = "lb_Servo_Y";
-        lb_Servo_Y.Size = new System.Drawing.Size(78, 12);
-        lb_Servo_Y.TabIndex = 3;
-        lb_Servo_Y.Text = "Servo_Y : Off";
+            lb_Servo_Y.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            lb_Servo_Y.AutoSize = true;
+            lb_Servo_Y.BackColor = System.Drawing.Color.Gray;
+            lb_Servo_Y.Location = new System.Drawing.Point(760, 7);
+            lb_Servo_Y.Name = "lb_Servo_Y";
+            lb_Servo_Y.Size = new System.Drawing.Size(78, 12);
+            lb_Servo_Y.TabIndex = 3;
+            lb_Servo_Y.Text = "Servo_Y : Off";
+            // 
+            // cMToolStripMenuItem
+            // 
+            this.cMToolStripMenuItem.Name = "cMToolStripMenuItem";
+            this.cMToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.cMToolStripMenuItem.Text = "CM";
+            this.cMToolStripMenuItem.Click += new System.EventHandler(this.cMToolStripMenuItem_Click_1);
             // 
             // Form1
             // 
@@ -142,6 +151,7 @@ namespace JKK_XYSTAGE
         private System.Windows.Forms.ToolStripMenuItem y축ToolStripMenuItem;
         public static System.Windows.Forms.Label lb_Servo_X;
         public static System.Windows.Forms.Label lb_Servo_Y;
+        private System.Windows.Forms.ToolStripMenuItem cMToolStripMenuItem;
     }
 }
 

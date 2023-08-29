@@ -99,9 +99,9 @@ namespace JKK_XYSTAGE
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.rb_CP = new System.Windows.Forms.RadioButton();
             this.rb_FeedLine = new System.Windows.Forms.RadioButton();
+            this.rb_CP = new System.Windows.Forms.RadioButton();
+            this.button2 = new System.Windows.Forms.Button();
             this.gb_xGroup.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -832,14 +832,16 @@ namespace JKK_XYSTAGE
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "MODE";
             // 
-            // button2
+            // rb_FeedLine
             // 
-            this.button2.Location = new System.Drawing.Point(69, 133);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 37;
-            this.button2.Text = "Reset";
-            this.button2.UseVisualStyleBackColor = true;
+            this.rb_FeedLine.AutoSize = true;
+            this.rb_FeedLine.Location = new System.Drawing.Point(76, 23);
+            this.rb_FeedLine.Name = "rb_FeedLine";
+            this.rb_FeedLine.Size = new System.Drawing.Size(75, 16);
+            this.rb_FeedLine.TabIndex = 39;
+            this.rb_FeedLine.TabStop = true;
+            this.rb_FeedLine.Text = "FeedLine";
+            this.rb_FeedLine.UseVisualStyleBackColor = true;
             // 
             // rb_CP
             // 
@@ -852,16 +854,14 @@ namespace JKK_XYSTAGE
             this.rb_CP.Text = "CP";
             this.rb_CP.UseVisualStyleBackColor = true;
             // 
-            // rb_FeedLine
+            // button2
             // 
-            this.rb_FeedLine.AutoSize = true;
-            this.rb_FeedLine.Location = new System.Drawing.Point(76, 23);
-            this.rb_FeedLine.Name = "rb_FeedLine";
-            this.rb_FeedLine.Size = new System.Drawing.Size(75, 16);
-            this.rb_FeedLine.TabIndex = 39;
-            this.rb_FeedLine.TabStop = true;
-            this.rb_FeedLine.Text = "FeedLine";
-            this.rb_FeedLine.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(69, 133);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 37;
+            this.button2.Text = "Reset";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // PTP_Form
             // 

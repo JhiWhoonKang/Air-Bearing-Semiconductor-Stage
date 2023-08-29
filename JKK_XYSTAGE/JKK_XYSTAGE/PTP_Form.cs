@@ -9,15 +9,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-
 namespace JKK_XYSTAGE
 {
-
-
     public partial class PTP_Form : Form
     {
-
         #region 그래프 변수 
         Graphics g;
         int Margin = 40;  // pl_stage와 user stage의 간격
@@ -53,11 +48,10 @@ namespace JKK_XYSTAGE
             InitializeComponent();
             g = pl_stage.CreateGraphics(); // pl_stage에 그림을 그리기 위한 Graphics 객체 생성
             client_stage = new Rectangle(Margin, Margin, pl_stage.Width - 2 * Margin, pl_stage.Height - 2 * Margin);
-            client_home = new Point(client_stage.Width+Margin, Margin); // 우상단
-            client_max = new Point(client_home.X - client_stage.Width, client_stage.Height + Margin); //좌하단
-
-                
+            client_home = new Point(client_stage.Width + Margin, Margin); // 우상단
+            client_max = new Point(client_home.X - client_stage.Width, client_stage.Height + Margin); //좌하단       
         }
+
         public void InitStage()
         {
             string Left_Top = "(" + x_MaxPos.ToString() + "," + (0).ToString() + ")";
@@ -72,9 +66,6 @@ namespace JKK_XYSTAGE
             g.DrawString(Left_Bottom, Font, Brushes.Black, client_max.X - gap, client_max.Y + gap);
             g.DrawString(Right_Bottom, Font, Brushes.Black, client_home.X - gap, client_max.Y + gap);
         }
-
-
-
 
         /*pl Events*/
         private void pl_stage_MouseDown(object sender, MouseEventArgs e)
