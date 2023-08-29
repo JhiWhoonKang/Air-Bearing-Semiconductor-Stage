@@ -3,9 +3,9 @@
 From August 1st to October 31st, 2023
 
 Project with
-fourth grader JKK(조근영)
-third grader KJW(강지훈)
-third grader KCM(김찬민)
+<br/> fourth grader JKK(조근영)
+<br/> third grader KJW(강지훈)
+<br/> third grader KCM(김찬민)
 
 
 # [Beckhoff Embedded PC](https://www.beckhoff.com/en-en/)
