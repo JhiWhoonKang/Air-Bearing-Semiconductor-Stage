@@ -1,12 +1,12 @@
 # Air-Bearing-Semiconductor-Stage
-
-From August 1st to October 31st, 2023
-
-Project with
-<br/> fourth grader JKK(조근영)
-<br/> third grader KJW(강지훈)
-<br/> third grader KCM(김찬민)
-
+<br/>**| Research Project**
+<br/>Precision Stage Development Using PC Controller
+<br/><br/>**| Research Duration**
+<br/>August 1, 2023, to October 31, 2023
+<br/><br/>**| Project Team**
+<br/>▶Jo Geunyoung(Fourth-year)
+<br/>▶Kang JHiWhoon(Third-year)
+<br/>▶Kim Chanmin(Third-year)
 
 # [Beckhoff Embedded PC](https://www.beckhoff.com/en-en/)
 # *Specifications*
