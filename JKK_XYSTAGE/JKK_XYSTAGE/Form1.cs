@@ -13,12 +13,17 @@ namespace JKK_XYSTAGE
 {
     public partial class Form1 : Form
     {
+
+        #region Create new
+        /* Ads client */
         public static TcAdsClient Ads = new TcAdsClient();
 
+        /* Forms */
         public static  PTP_Form PTP_form = new PTP_Form();
         public static CM_Form CM_form = new CM_Form();
         public static  PID_X_Form PID_X_form = new PID_X_Form();
         public static  PID_Y_Form PID_Y_form = new PID_Y_Form();
+        #endregion
 
         #region Twincat_ADS_Parameter
 
@@ -60,50 +65,58 @@ namespace JKK_XYSTAGE
         public static int hX_GetD_Gain;
         public static int hX_GetPID_Ex;
 
-        // @@
         public static int hY_GetP_Gain;
         public static int hY_GetI_Gain;
         public static int hY_GetD_Gain;
         public static int hY_GetPID_Ex;
         #endregion
 
-
-        //Stage states
+        /* Stage states */
         public static bool x_on = false;
         public static bool y_on = false;
-
-
+        /* */
 
         public Form1()
         {
             InitializeComponent();
-            //1. 화면 크기 고정
+            /* Fixed screen size */
             this.MaximumSize = new Size(1600, 900);
             this.MinimumSize = new Size(1600, 900);
-            // 
+            /* */
 
-
+            /* Menu Strip*/
             menuStrip1.Items[1].Enabled = false;
             menuStrip1.Items[2].Enabled = false;
             menuStrip1.Items[3].Enabled = false;
+            /* */
 
+            /* MDI configuration */
             PTP_form.MdiParent = this;
+            CM_form.MdiParent = this;
             PID_X_form.MdiParent = this;
             PID_Y_form.MdiParent = this;
+            /* */
 
+            /* Setting the Form's initial position */
             PTP_form.StartPosition = FormStartPosition.Manual;
+            CM_form.StartPosition=FormStartPosition.Manual;
             PID_X_form.StartPosition = FormStartPosition.Manual;
             PID_Y_form.StartPosition = FormStartPosition.Manual;
+            /* */
 
+            /* Setting the Form's position */
             PTP_form.Location = new Point(this.ClientRectangle.Left, this.ClientRectangle.Top);
+            CM_form.Location = new Point(this.ClientRectangle.Left, this.ClientRectangle.Top);
             PID_X_form.Location = new Point(this.ClientRectangle.Left, this.ClientRectangle.Top);
             PID_Y_form.Location = new Point(this.ClientRectangle.Left, this.ClientRectangle.Top);
+            /* */
 
+            /* Setting the Form's size */
             PTP_form.Size = this.ClientSize;
+            CM_form.Size=this.ClientSize;
             PID_X_form.Size = this.ClientSize;
             PID_Y_form.Size = this.ClientSize;
-
-
+            /* */
         }
 
         private void pTPToolStripMenuItem_Click(object sender, EventArgs e)
@@ -114,6 +127,7 @@ namespace JKK_XYSTAGE
 
             PTP_form.Show();
         }
+
         private void XaxisToolStripMenuItem_Click(object sender, EventArgs e)
         {
             PID_Y_form.Hide();
@@ -149,26 +163,32 @@ namespace JKK_XYSTAGE
             {
                 MessageBox.Show("Target과 연결되었습니다.", "통신 연결",
                          MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 connectToolStripMenuItem.ForeColor = Color.Yellow;
                 connectToolStripMenuItem.BackColor = Color.SkyBlue;
                 connectToolStripMenuItem.Text = "Connected";
+
                 menuStrip1.Items[0].Enabled = false;
                 menuStrip1.Items[1].Enabled = true;
                 menuStrip1.Items[2].Enabled = true;
                 menuStrip1.Items[3].Enabled = true;
 
                 hOnMoterX = Ads.CreateVariableHandle("GVL.OnMoterX");
-                hOnMoterY = Ads.CreateVariableHandle("GVL.OnMoterY");                
+                hOnMoterY = Ads.CreateVariableHandle("GVL.OnMoterY");
+                
                 hX_Command_Vel = Ads.CreateVariableHandle("GVL.X_Command_Vel");
                 hX_Command_Acc = Ads.CreateVariableHandle("GVL.X_Command_Acc");
                 hX_Command_Dec = Ads.CreateVariableHandle("GVL.X_Command_Dec");
                 hX_Busy = Ads.CreateVariableHandle("GVL.X_Busy");
+
                 hY_Command_Vel = Ads.CreateVariableHandle("GVL.Y_Command_Vel");
                 hY_Command_Acc = Ads.CreateVariableHandle("GVL.Y_Command_Acc");
                 hY_Command_Dec = Ads.CreateVariableHandle("GVL.Y_Command_Dec");
                 hY_Busy = Ads.CreateVariableHandle("GVL.Y_Busy");
+
                 hX_Command_Pos = Ads.CreateVariableHandle("GVL.X_Command_Pos");
                 hY_Command_Pos = Ads.CreateVariableHandle("GVL.Y_Command_Pos");
+
                 hX_AbMove_Ex = Ads.CreateVariableHandle("GVL.X_AbMove_Ex");
                 hY_AbMove_Ex = Ads.CreateVariableHandle("GVL.Y_AbMove_Ex");
 
@@ -183,6 +203,7 @@ namespace JKK_XYSTAGE
 
                 hX_Vel = Ads.CreateVariableHandle("GVL.X_Vel");
                 hX_Pos = Ads.CreateVariableHandle("GVL.X_Pos");
+
                 hY_Vel = Ads.CreateVariableHandle("GVL.Y_Vel");
                 hY_Pos = Ads.CreateVariableHandle("GVL.Y_Pos");
 
@@ -203,10 +224,7 @@ namespace JKK_XYSTAGE
                 MessageBox.Show("1. Target AMS Net ID를 확인하세요\n2. Target 전원을 확인하세요\n3. Runtime 상태를 확인하세요", "ADS 통신 오류",
                            MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
-
-
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {

@@ -28,10 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.rb_FeedLine = new System.Windows.Forms.RadioButton();
-            this.rb_CP = new System.Windows.Forms.RadioButton();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
@@ -42,7 +38,7 @@
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.bt_Set_MoveNum = new System.Windows.Forms.Button();
-            this.tb_MoveNum = new System.Windows.Forms.TextBox();
+            this.tb_SideNum = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.bt_yServoOn = new System.Windows.Forms.Button();
             this.bt_yAlarmClr = new System.Windows.Forms.Button();
@@ -100,7 +96,12 @@
             this.tb_xPGain = new System.Windows.Forms.TextBox();
             this.tb_xDGain = new System.Windows.Forms.TextBox();
             this.tb_xIGain = new System.Windows.Forms.TextBox();
-            this.groupBox9.SuspendLayout();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.bt_Set_Radius = new System.Windows.Forms.Button();
+            this.tb_Radius = new System.Windows.Forms.TextBox();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.rb_cw = new System.Windows.Forms.RadioButton();
+            this.rb_ccw = new System.Windows.Forms.RadioButton();
             this.groupBox11.SuspendLayout();
             this.groupBox10.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -112,51 +113,9 @@
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox12.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.BackColor = System.Drawing.Color.Silver;
-            this.groupBox9.Controls.Add(this.rb_FeedLine);
-            this.groupBox9.Controls.Add(this.rb_CP);
-            this.groupBox9.Controls.Add(this.button2);
-            this.groupBox9.Location = new System.Drawing.Point(462, 40);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(344, 55);
-            this.groupBox9.TabIndex = 46;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "MODE";
-            // 
-            // rb_FeedLine
-            // 
-            this.rb_FeedLine.AutoSize = true;
-            this.rb_FeedLine.Location = new System.Drawing.Point(76, 23);
-            this.rb_FeedLine.Name = "rb_FeedLine";
-            this.rb_FeedLine.Size = new System.Drawing.Size(75, 16);
-            this.rb_FeedLine.TabIndex = 39;
-            this.rb_FeedLine.TabStop = true;
-            this.rb_FeedLine.Text = "FeedLine";
-            this.rb_FeedLine.UseVisualStyleBackColor = true;
-            // 
-            // rb_CP
-            // 
-            this.rb_CP.AutoSize = true;
-            this.rb_CP.Location = new System.Drawing.Point(29, 24);
-            this.rb_CP.Name = "rb_CP";
-            this.rb_CP.Size = new System.Drawing.Size(40, 16);
-            this.rb_CP.TabIndex = 38;
-            this.rb_CP.TabStop = true;
-            this.rb_CP.Text = "CP";
-            this.rb_CP.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(69, 133);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 37;
-            this.button2.Text = "Reset";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // groupBox11
             // 
@@ -231,30 +190,31 @@
             // 
             this.groupBox8.BackColor = System.Drawing.Color.Silver;
             this.groupBox8.Controls.Add(this.bt_Set_MoveNum);
-            this.groupBox8.Controls.Add(this.tb_MoveNum);
+            this.groupBox8.Controls.Add(this.tb_SideNum);
             this.groupBox8.Location = new System.Drawing.Point(256, 40);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(200, 55);
+            this.groupBox8.Size = new System.Drawing.Size(180, 55);
             this.groupBox8.TabIndex = 42;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "이동 횟수";
+            this.groupBox8.Text = "점 개수";
             // 
             // bt_Set_MoveNum
             // 
-            this.bt_Set_MoveNum.Location = new System.Drawing.Point(106, 23);
+            this.bt_Set_MoveNum.Location = new System.Drawing.Point(84, 20);
             this.bt_Set_MoveNum.Name = "bt_Set_MoveNum";
             this.bt_Set_MoveNum.Size = new System.Drawing.Size(81, 23);
             this.bt_Set_MoveNum.TabIndex = 35;
             this.bt_Set_MoveNum.Text = "Set";
             this.bt_Set_MoveNum.UseVisualStyleBackColor = true;
+            this.bt_Set_MoveNum.Click += new System.EventHandler(this.bt_Set_MoveNum_Click);
             // 
-            // tb_MoveNum
+            // tb_SideNum
             // 
-            this.tb_MoveNum.Location = new System.Drawing.Point(17, 23);
-            this.tb_MoveNum.Name = "tb_MoveNum";
-            this.tb_MoveNum.Size = new System.Drawing.Size(61, 21);
-            this.tb_MoveNum.TabIndex = 39;
-            this.tb_MoveNum.Text = "5";
+            this.tb_SideNum.Location = new System.Drawing.Point(17, 23);
+            this.tb_SideNum.Name = "tb_SideNum";
+            this.tb_SideNum.Size = new System.Drawing.Size(61, 21);
+            this.tb_SideNum.TabIndex = 39;
+            this.tb_SideNum.Text = "5";
             // 
             // groupBox4
             // 
@@ -847,16 +807,81 @@
             this.tb_xIGain.Size = new System.Drawing.Size(61, 21);
             this.tb_xIGain.TabIndex = 27;
             // 
+            // groupBox9
+            // 
+            this.groupBox9.BackColor = System.Drawing.Color.Silver;
+            this.groupBox9.Controls.Add(this.bt_Set_Radius);
+            this.groupBox9.Controls.Add(this.tb_Radius);
+            this.groupBox9.Location = new System.Drawing.Point(442, 40);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(180, 55);
+            this.groupBox9.TabIndex = 43;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "반경";
+            // 
+            // bt_Set_Radius
+            // 
+            this.bt_Set_Radius.Location = new System.Drawing.Point(84, 23);
+            this.bt_Set_Radius.Name = "bt_Set_Radius";
+            this.bt_Set_Radius.Size = new System.Drawing.Size(81, 23);
+            this.bt_Set_Radius.TabIndex = 35;
+            this.bt_Set_Radius.Text = "Set";
+            this.bt_Set_Radius.UseVisualStyleBackColor = true;
+            this.bt_Set_Radius.Click += new System.EventHandler(this.bt_Set_Radius_Click);
+            // 
+            // tb_Radius
+            // 
+            this.tb_Radius.Location = new System.Drawing.Point(17, 23);
+            this.tb_Radius.Name = "tb_Radius";
+            this.tb_Radius.Size = new System.Drawing.Size(61, 21);
+            this.tb_Radius.TabIndex = 39;
+            this.tb_Radius.Text = "5";
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.BackColor = System.Drawing.Color.Silver;
+            this.groupBox12.Controls.Add(this.rb_ccw);
+            this.groupBox12.Controls.Add(this.rb_cw);
+            this.groupBox12.Location = new System.Drawing.Point(630, 40);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(180, 55);
+            this.groupBox12.TabIndex = 44;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "모드";
+            // 
+            // rb_cw
+            // 
+            this.rb_cw.AutoSize = true;
+            this.rb_cw.Location = new System.Drawing.Point(6, 26);
+            this.rb_cw.Name = "rb_cw";
+            this.rb_cw.Size = new System.Drawing.Size(42, 16);
+            this.rb_cw.TabIndex = 0;
+            this.rb_cw.TabStop = true;
+            this.rb_cw.Text = "CW";
+            this.rb_cw.UseVisualStyleBackColor = true;
+            // 
+            // rb_ccw
+            // 
+            this.rb_ccw.AutoSize = true;
+            this.rb_ccw.Location = new System.Drawing.Point(54, 27);
+            this.rb_ccw.Name = "rb_ccw";
+            this.rb_ccw.Size = new System.Drawing.Size(51, 16);
+            this.rb_ccw.TabIndex = 1;
+            this.rb_ccw.TabStop = true;
+            this.rb_ccw.Text = "CCW";
+            this.rb_ccw.UseVisualStyleBackColor = true;
+            // 
             // CM_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1412, 816);
+            this.Controls.Add(this.groupBox12);
+            this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.groupBox11);
             this.Controls.Add(this.groupBox10);
-            this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.pl_stage);
             this.Controls.Add(this.gb_xGroup);
@@ -864,8 +889,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CM_Form";
             this.Text = "CM_Form";
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox10.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
@@ -882,16 +905,15 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.RadioButton rb_FeedLine;
-        private System.Windows.Forms.RadioButton rb_CP;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox11;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox10;
@@ -902,7 +924,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.GroupBox groupBox8;
         public System.Windows.Forms.Button bt_Set_MoveNum;
-        public System.Windows.Forms.TextBox tb_MoveNum;
+        public System.Windows.Forms.TextBox tb_SideNum;
         private System.Windows.Forms.GroupBox groupBox4;
         public System.Windows.Forms.Button bt_yServoOn;
         private System.Windows.Forms.Button bt_yAlarmClr;
@@ -960,5 +982,11 @@
         public System.Windows.Forms.TextBox tb_xPGain;
         public System.Windows.Forms.TextBox tb_xDGain;
         public System.Windows.Forms.TextBox tb_xIGain;
+        private System.Windows.Forms.GroupBox groupBox9;
+        public System.Windows.Forms.Button bt_Set_Radius;
+        public System.Windows.Forms.TextBox tb_Radius;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.RadioButton rb_ccw;
+        private System.Windows.Forms.RadioButton rb_cw;
     }
 }

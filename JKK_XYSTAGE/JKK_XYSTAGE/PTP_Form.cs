@@ -126,6 +126,7 @@ namespace JKK_XYSTAGE
             }
 
         }
+
         private void PTP_Function()
         {
             int list_state_cnt = 0;   
@@ -141,15 +142,12 @@ namespace JKK_XYSTAGE
                 Form1.Ads.WriteAny(Form1.hX_AbMove_Ex, true);
                 Form1.Ads.WriteAny(Form1.hY_AbMove_Ex, true);
 
-
-
                 listView2.Items[list_state_cnt].SubItems[2].Text = "Run";
 
                 while (true)   // 움직일동안 대기 
                 { 
                     if (Convert.ToBoolean(Form1.Ads.ReadAny(Form1.hX_Busy, typeof(bool))) ==false && Convert.ToBoolean(Form1.Ads.ReadAny(Form1.hY_Busy, typeof(bool))) == false) break;
                 }
-
 
                 if (rb_FeedLine.Checked)   //피드백 받아서 선 긋기
                 {
@@ -163,7 +161,6 @@ namespace JKK_XYSTAGE
                     tb_xFeedVel.Text = xRvel.ToString();
                     tb_yFeedPos.Text = yRpos.ToString();
                     tb_yFeedVel.Text = yRvel.ToString();
-
 
                     CurPos.X = client_home.X - (int)((xRpos * client_stage.Width) / x_MaxPos);
                     CurPos.Y = Margin + (int)((yRpos * client_stage.Height) / y_MaxPos);
@@ -180,13 +177,6 @@ namespace JKK_XYSTAGE
                 MessageBox.Show(tmp.X.ToString() + " " + tmp.Y.ToString());
             }
 
-
-            if(rb_CP.Checked)    //원 그리기
-            {
-
-            }
-
-
             Thread.Sleep(1000);
             user_point_list.Clear();
             stage_point_list.Clear();
@@ -200,7 +190,6 @@ namespace JKK_XYSTAGE
         {
             InitStage();
         }
-
 
         private void bt_xServoOn_Click(object sender, EventArgs e)
         {
@@ -223,6 +212,7 @@ namespace JKK_XYSTAGE
                 Form1.lb_Servo_X.Text = "Servo_X : Off";
             }
         }
+
         private void bt_yServoOn_Click(object sender, EventArgs e)
         {
             if (!Form1.y_on)
@@ -242,8 +232,6 @@ namespace JKK_XYSTAGE
                 Form1.lb_Servo_Y.Text = "Servo_X : Off";
             }
         }
-
-
 
         // 파라미터 입력 예외 <최대 속도 제한 아직 구현 x>
         private void tb_xVel_KeyPress(object sender, KeyPressEventArgs e)
@@ -344,6 +332,7 @@ namespace JKK_XYSTAGE
             listView2.Items.Clear();
         }
 
+
         private void bt_Set_MoveNum_Click(object sender, EventArgs e)
         {
             Move_num = int.Parse(tb_MoveNum.Text.ToString());
@@ -353,7 +342,5 @@ namespace JKK_XYSTAGE
         {
             Form1.PID_X_form.Display_PID_Gain();
         }
-
-      
     }
 }
