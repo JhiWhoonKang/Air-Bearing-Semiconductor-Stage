@@ -1,15 +1,22 @@
 # Air-Bearing-Semiconductor-Stage
-<br/>**| Research Project**
+
+## Table of contents
+- [Summary](#Summary)
+- [Beckhoff Specifications](#Beckhoff-Specifications)
+- [Panasonic Specifications](#Panasonic-Specifications)
+
+## Summary
+-  **Research Project**
 <br/>Precision Stage Development Using PC Controller
-<br/><br/>**| Research Duration**
+- **Research Duration**
 <br/>August 1, 2023, to October 31, 2023
-<br/><br/>**| Project Team**
-<br/>▶Jo Geunyoung (Fourth-year)
-<br/>▶Kang JHiWhoon (Third-year)
-<br/>▶Kim Chanmin (Third-year)
+- **Project Team**
+<br/> - Jo Keunyoung (4th grade)
+<br/> - Kang JHiWhoon (3th grade)
+<br/> - Kim Chanmin (3th grade)
 
 # [Beckhoff Embedded PC](https://www.beckhoff.com/en-en/)
-# *Specifications*
+# *Beckhoff Specifications*
 
 | **Technical data** | **CX5020** |
 |--------------------|------------|
@@ -42,6 +49,8 @@
 |Bus Speed|533 MHz|
 |FSB Parity|No|
 |VID Voltage Range|0.75-1.1V| 
+
+# *Panasonic Specifications*
 
 # Getting Started
 
