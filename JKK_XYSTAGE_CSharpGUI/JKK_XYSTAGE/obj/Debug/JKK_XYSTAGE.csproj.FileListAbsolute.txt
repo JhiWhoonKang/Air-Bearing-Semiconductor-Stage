@@ -1,0 +1,46 @@
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\JKK_XYSTAGE.exe.config
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\JKK_XYSTAGE.exe
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\JKK_XYSTAGE.pdb
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.Form1.resources
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.Properties.Resources.resources
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.exe
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.pdb
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.PTP_Form.resources
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\TwinCAT.Ads.dll
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\TwinCAT.Ads.xml
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.CopyComplete
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\ScottPlot.dll
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\ScottPlot.WinForms.dll
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.Drawing.Common.dll
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.ValueTuple.dll
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\ScottPlot.xml
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.ValueTuple.xml
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.PID_X_Form.resources
+C:\Users\admin\source\repos\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.PID_Y_Form.resources
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\JKK_XYSTAGE.exe.config
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\JKK_XYSTAGE.exe
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\JKK_XYSTAGE.pdb
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\ScottPlot.dll
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\ScottPlot.WinForms.dll
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.Drawing.Common.dll
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.ValueTuple.dll
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\ScottPlot.xml
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\bin\Debug\System.ValueTuple.xml
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.Form1.resources
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.PID_X_Form.resources
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.PID_Y_Form.resources
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.Properties.Resources.resources
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.PTP_Form.resources
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.GenerateResource.cache
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.csproj.CopyComplete
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.exe
+C:\Users\admin\Documents\카카오톡 받은 파일\JKK_XYSTAGE\JKK_XYSTAGE\JKK_XYSTAGE\obj\Debug\JKK_XYSTAGE.pdb
