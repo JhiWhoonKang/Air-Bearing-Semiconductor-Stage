@@ -332,6 +332,10 @@ namespace JKK_XYSTAGE
             listView2.Items.Clear();
         }
 
+        private void pl_stage_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
 
         private void bt_Set_MoveNum_Click(object sender, EventArgs e)
         {

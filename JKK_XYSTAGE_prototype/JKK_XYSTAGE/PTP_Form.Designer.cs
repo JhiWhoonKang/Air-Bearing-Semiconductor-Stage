@@ -125,6 +125,7 @@ namespace JKK_XYSTAGE
             this.pl_stage.Name = "pl_stage";
             this.pl_stage.Size = new System.Drawing.Size(550, 550);
             this.pl_stage.TabIndex = 0;
+            this.pl_stage.Paint += new System.Windows.Forms.PaintEventHandler(this.pl_stage_Paint);
             this.pl_stage.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pl_stage_MouseDown);
             // 
             // bt_xServoOn
