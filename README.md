@@ -6,18 +6,18 @@
 - [Panasonic Specifications](#Panasonic-Specifications)
 
 ## Summary
--  **Research Project**
+<br/>**Research Project**
 <br/>Precision Stage Development Using PC Controller
-- **Research Duration**
+<br/><br/>**Research Duration**
 <br/>August 1, 2023, to October 31, 2023
-- **Project Team**
-**2023**
-<br/> - Jo Keunyoung (4th grade)
-<br/> - Kang JHiWhoon (3th grade)
-<br/> - Kim Chanmin (3th grade)
-**2024**
-<br/> - Kang JHiWhoon (4th grade)
-<br/> - Kim Chanmin (4th grade)
+<br/><br/>**Project Team**
+<br/>**2023**
+<br/> - 조근영, Keunyoung Jo (4th grade)
+<br/> - 강지훈, JHiWhoon Kang (3th grade)
+<br/> - 김찬민, Chanmin Kim(3th grade)
+<br/>**2024**
+<br/> - 강지훈, JHiWhoon Kang (4th grade)
+<br/> - 김찬민, Chanmin Kim (4th grade)
 
 # [Beckhoff Embedded PC](https://www.beckhoff.com/en-en/)
 # *Beckhoff Specifications*
