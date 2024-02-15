@@ -11,11 +11,11 @@
 - **Research Duration**
 <br/>August 1, 2023, to October 31, 2023
 - **Project Team**
-- 2023
+**2023**
 <br/> - Jo Keunyoung (4th grade)
 <br/> - Kang JHiWhoon (3th grade)
 <br/> - Kim Chanmin (3th grade)
-- 2024
+**2024**
 <br/> - Kang JHiWhoon (4th grade)
 <br/> - Kim Chanmin (4th grade)
 
