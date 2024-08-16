@@ -58,16 +58,16 @@ namespace XYSTAGE_OpenCVSharp
 
         private void MoveToCenter(Point center)
         {
-            Form1.Ads.WriteAny(Form1.hX_Command_Pos, Convert.ToDouble(center.X));
-            Form1.Ads.WriteAny(Form1.hY_Command_Pos, Convert.ToDouble(center.Y));
+            //Form1.Ads.WriteAny(Form1.hX_Command_Pos, Convert.ToDouble(center.X));
+            //Form1.Ads.WriteAny(Form1.hY_Command_Pos, Convert.ToDouble(center.Y));
 
-            Form1.Ads.WriteAny(Form1.hX_AbMove_Ex, true);
-            Form1.Ads.WriteAny(Form1.hY_AbMove_Ex, true);
+            //Form1.Ads.WriteAny(Form1.hX_AbMove_Ex, true);
+            //Form1.Ads.WriteAny(Form1.hY_AbMove_Ex, true);
 
-            while (true)   // 움직일동안 대기 
-            {
-                if (Convert.ToBoolean(Form1.Ads.ReadAny(Form1.hX_Busy, typeof(bool))) == false && Convert.ToBoolean(Form1.Ads.ReadAny(Form1.hY_Busy, typeof(bool))) == false) break;
-            }
+            //while (true)   // 움직일동안 대기 
+            //{
+            //    if (Convert.ToBoolean(Form1.Ads.ReadAny(Form1.hX_Busy, typeof(bool))) == false && Convert.ToBoolean(Form1.Ads.ReadAny(Form1.hY_Busy, typeof(bool))) == false) break;
+            //}
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
